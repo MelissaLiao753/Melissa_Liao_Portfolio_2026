@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F6F5E9;
 }
 
 nav{
@@ -11,6 +12,8 @@ nav{
     min-height: 8vh;
     background-color: #0D3B66;
     font-family: 'DM serif';
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -24,7 +27,7 @@ nav{
     justify-content: space-around;
     width: 35%;
 }
-.nav-link li{
+.nav-links li{
     list-style: none;
 }
 
@@ -33,4 +36,13 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 16px;
+}
+
+.contact-ul{
+    display: flex;
+    align-items: center;
+}
+
+.contact-ul li{
+    list-style: none;
 }
