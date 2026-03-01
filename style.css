@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
     background-color: #F6F5E9;
 }
+
 
 nav{
     display: flex;
@@ -46,3 +51,4 @@ nav{
 .contact-ul li{
     list-style: none;
 }
+
