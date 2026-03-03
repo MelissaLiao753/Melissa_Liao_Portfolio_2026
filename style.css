@@ -53,7 +53,28 @@ nav{
 }
 
 .homepage-img img {
-    width: 100px;
+    width: 140vh;
+    display: flex;
+    justify-content: center;
 }
 
+.aboutme p{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vh;
+    min-width: 50vh;
+    padding:1%;
+    font-family: DM serif;
+    font-size: 20px;
+}
+
+.aboutme h3{
+    padding:1%;
+    display: flex;
+    font-family: DM serif;
+}
+
+.contacts {
+    padding: 1%;
+}
 
