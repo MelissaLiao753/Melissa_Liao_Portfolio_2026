@@ -53,9 +53,11 @@ nav{
 }
 
 .homepage-img img {
-    width: 140vh;
+    max-width: 100%;
     display: flex;
     justify-content: center;
+   
+   
 }
 
 .aboutme p{
@@ -78,3 +80,8 @@ nav{
     padding: 1%;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
