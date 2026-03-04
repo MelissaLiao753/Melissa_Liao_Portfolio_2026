@@ -5,14 +5,21 @@
     
 }
 
+html{
+    scrollbar-gutter: stable;
+
+}
+
 body{
     background-color: #F6F5E9;
 }
 
 
+/*NAVIGATION BAR*/
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 1%;
     align-items: center;
     min-height: 10vh;
     background-color: #0D3B66;
@@ -53,7 +60,7 @@ nav{
     font-size: 16px;
     
 }
-
+/*CONTACTS*/
 .contact-ul{
     display: flex;
     align-items: center;
@@ -63,21 +70,28 @@ nav{
     list-style: none;
 }
 
-.homepage-img img {
-    max-height: 70vh;
-    display: flex;
-    justify-content: center;
+/*HOMEPAGE INFO*/
 
-   
-   
+.homepage-img img{
+    padding-top: 7%;
+    width: 720px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 0;
+    margin-bottom: 15px;
+    object-position: left;
 }
 
+
+
 .aboutme p{
+    
     display: flex;
     justify-content: space-between;
     max-width: 70vh;
     min-width: 50vh;
     padding:1%;
+    padding-left: 4%;
     font-family: DM serif;
     font-size: 20px;
 }
@@ -87,6 +101,7 @@ nav{
     display: flex;
     font-family: DM serif;
     font-size: 24px;
+    padding-left: 4%;
 }
 
 .contacts {
@@ -96,13 +111,37 @@ nav{
 .container {
     display: flex;
     align-items: center;
-    gap: 320px;
+    gap: 30vh;
 }
+
+/*PROJECTS PAGE*/
 
 .projectcontainer{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
+}
+
+.projectcontainer h4{
+    padding-bottom: 10%;
+    display: flex;
+    font-family: DM serif;
+    font-size: 24px;
+    padding-left: 4%;
+
+}
+
+.projectcontainer p{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vh;
+    min-width: 50vh;
+    padding:1%;
+    padding-left: 4%;
+    font-family: DM serif;
+    font-size: 20px;
+
+
 }
 
