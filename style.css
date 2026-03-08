@@ -117,38 +117,47 @@ nav{
 /*PROJECTS PAGE*/
 .projectcontainer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .projectdetails{
-    max-width: 70vh;
-    min-width: 50vh;
+    margin: auto;
+
     padding:1%;
     padding-left: 1%;
     font-family: DM serif;
     font-size: 20px;
     list-style-position: inside;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+  
 }
 
 
 .projectdetails h4{
-    padding-top: 9%;
-    padding-bottom: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 4%;
     display: flex;
     font-family: DM serif;
     font-size: 24px;
-    
 }
 
 .projectdetails ul{
     padding-top: 10%;
-
 }
 
 .project1images img{
-    width: 325px;
-    height: 200px;
+    flex-direction: 2;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
