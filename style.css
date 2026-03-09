@@ -151,13 +151,24 @@ nav{
     padding-top: 10%;
 }
 
-.project1images img{
-    flex-direction: 2;
-    width: 500px;
-    height: 300px;
+.project1images{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    gap: 10px;
+    max-width: 200px;
 
+
+}
+
+.img-side{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex:2;
+}
+
+#big_finished_img{
+    max-width: 60%;
+    height: auto;
 }
 
