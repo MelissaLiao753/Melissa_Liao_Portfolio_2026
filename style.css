@@ -75,13 +75,22 @@ nav{
 .homepage-img img{
     padding-top: 7%;
     width: 720px;
-    height: 400px;
+    max-width: 100%;
+    max-height: 400px;
     object-fit: cover;
     margin-right: 0;
     margin-bottom: 15px;
     object-position: left;
+    
 }
 
+.homepage-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 1;
+    flex-wrap: wrap;
+}
 
 
 .aboutme p{
@@ -94,6 +103,7 @@ nav{
     padding-left: 4%;
     font-family: DM serif;
     font-size: 18px;
+    z-index: 2;
 }
 
 .aboutme h3{
@@ -111,7 +121,15 @@ nav{
 .container {
     display: flex;
     align-items: center;
-    gap: 30vh;
+    gap: 20%;
+    flex-direction: row;
+
+}
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
 }
 
 /*PROJECTS PAGE*/
@@ -125,7 +143,7 @@ nav{
 
 .project_details{
     
-    
+    z-index: 2;
     padding:1%;
     padding-left: 1%;
     font-family: DM serif;
@@ -147,6 +165,7 @@ nav{
     gap: 15px;
     flex: 2;
     max-width: 600px;
+
     
 }
 
@@ -158,8 +177,6 @@ nav{
     width: 300px;
     align-items: flex-end;
     padding-right: 25%;
-    
-    
 
 }
 
@@ -175,9 +192,6 @@ nav{
     padding-top: 10%;
 }
 
-
-
-
 .small_images img{
     width: 100%;
     height: auto;
@@ -186,8 +200,6 @@ nav{
 
 
 }
-
-
 
 #big_image img{
 
@@ -207,5 +219,4 @@ nav{
     
     
 }
-
 
