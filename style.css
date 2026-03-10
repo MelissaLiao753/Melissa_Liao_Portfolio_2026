@@ -6,8 +6,7 @@
 }
 
 html{
-    scrollbar-gutter: stable;
-
+    scroll-behavior: smooth;
 }
 
 body{
@@ -106,6 +105,7 @@ nav{
 }
 
 .aboutme h3{
+    padding-top: 10%;
     padding-bottom: 10%;
     display: flex;
     font-family: DM serif;
@@ -119,9 +119,9 @@ nav{
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20%;
-    flex-direction: row;
+
 
 }
 
@@ -136,10 +136,9 @@ nav{
 /*PROJECTS PAGE*/
 .project_container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20%;
     justify-content: center;
-    padding: 20px;
 }
 
 .project_details{
@@ -151,10 +150,14 @@ nav{
     flex: 1;
     flex-direction: column;
     display: flex;
+   
 
   
 }
 
+.project_details ul{
+    padding-top: 30px;
+}
 
 .img-side{
     display: flex;
@@ -170,30 +173,31 @@ nav{
 
     display: flex;
     flex-direction: row;
-    gap:50px;
-    width: 300px;
+    gap:20px;
     align-items: flex-end;
-    padding-right: 25%;
+    padding-right: 10px;
 
 }
 
 .project_details h3{
-    margin: 0;
-    padding-bottom: 4%;
-    display: flex;
+    margin-top: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
     font-family: DM serif;
     font-size: 24px;
+    
 }
 
 .small_images img{
-    width: 100%;
     max-width: 250px;
     height: auto;
     border-radius: 5px;
+    display: block;
+
 }
 
 #big_image img{
-    padding-top: 4%;
+    padding-top: 7%;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -210,6 +214,9 @@ nav{
 }
 
 @media (max-width: 786px) {
+    .project_container{
+        flex-direction: column;
+    }
     .big_image {
         flex-direction: column;
     }
