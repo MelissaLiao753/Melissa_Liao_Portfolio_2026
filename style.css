@@ -139,12 +139,11 @@ nav{
     align-items: center;
     gap: 20%;
     justify-content: center;
+    padding: 20px;
 }
 
 .project_details{
     padding:1%;
-    padding-top: 3%;
-    padding-left: 1%;
     font-family: DM serif;
     font-size: 20px;
     list-style-position: inside;
@@ -152,14 +151,14 @@ nav{
     flex: 1;
     flex-direction: column;
     display: flex;
-    justify-content: space-between;
+
   
 }
 
 
 .img-side{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 15px;
     flex: 2;
@@ -171,36 +170,30 @@ nav{
 
     display: flex;
     flex-direction: row;
+    gap:50px;
+    width: 300px;
     align-items: flex-end;
     padding-right: 25%;
-    flex-wrap: wrap;
 
 }
 
-.projectdetails h3{
-    padding-top: 2.5%;
+.project_details h3{
+    margin: 0;
     padding-bottom: 4%;
     display: flex;
     font-family: DM serif;
     font-size: 24px;
 }
 
-.projectdetails ul{
-    padding-top: 10%;
-}
-
 .small_images img{
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     border-radius: 5px;
-    display: block;
-
-
 }
 
 #big_image img{
-
+    padding-top: 4%;
     width: 100%;
     height: auto;
     border-radius: 10px;
