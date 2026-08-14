@@ -20,11 +20,12 @@ nav{
     justify-content: space-between;
     padding-left: 1%;
     align-items: center;
-    min-height: 10vh;
+    padding: 1rem 5%;
     background-color: #0D3B66;
-    font-family: 'DM serif';
+    font-family: 'DM serif Display', serif;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -79,6 +80,7 @@ nav{
     object-fit: cover;
     margin-right: 0;
     margin-bottom: 15px;
+    padding-right: 3%;
     object-position: left;
     
 }
@@ -120,7 +122,7 @@ nav{
 .container {
     display: flex;
     align-items: flex-start;
-    gap: 20%;
+    gap: 2rem;
 
 
 }
@@ -150,8 +152,6 @@ nav{
     flex: 1;
     flex-direction: column;
     display: flex;
-   
-
   
 }
 
@@ -166,7 +166,6 @@ nav{
     gap: 15px;
     flex: 2;
     max-width: 600px;
-    
 }
 
 .small_images{
@@ -213,15 +212,24 @@ nav{
     flex-wrap: wrap;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
     .project_container{
         flex-direction: column;
     }
-    .big_image {
+    #big_image {
         flex-direction: column;
     }
         .small-images {
         flex-direction: column;
     }
+}
+
+/* BLENDER PROJECT*/
+
+.blender_images img{
+    width: 400px;
+    height: 100%;
+    display: block;
+
 }
 
