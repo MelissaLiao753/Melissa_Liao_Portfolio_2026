@@ -179,10 +179,11 @@ nav{
 
 
 .small_images img{
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
     border-radius: 5px;
     display: block;
+    object-fit: cover;
 
 }
 
@@ -200,33 +201,9 @@ nav{
     color: #000000;
 }
 
-.small-images {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
 
-.small-images img {
-    border-radius: 5px;
-    height: auto;
-    object-fit: cover;
-    display: block;
 
-}
 
-.blender_images{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-}
-
-.blender_images img{
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-}
 @media (max-width: 768px) {
     .container,
     .project_container{
@@ -244,10 +221,17 @@ nav{
 
 /* BLENDER PROJECT*/
 
-.blender_images img{
-    width: 400px;
-    height: 100%;
-    display: block;
+.blender_images{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
 
+.blender_images img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
 }
 
