@@ -102,9 +102,6 @@ nav{
 }
 
 /*CONTACTS*/
-.contacts {
-    padding: 2rem 5%;
-}
 
 .contacts h4 {
     font-family: 'DM Serif Display', serif;
@@ -127,6 +124,7 @@ nav{
 /*PROJECTS PAGE*/
 .projects-wrapper {
     padding: 2rem 5%;
+    width: 100%;
 }
 
 .project_container{
@@ -173,19 +171,38 @@ nav{
     gap:20px;
     align-items: flex-end;
     padding-right: 10px;
+    width: 100%;
+    height: auto;
 
 }
 
 
 
 .small_images img{
-    max-width: 350px;
+    max-width: 300px;
     height: auto;
     border-radius: 5px;
     display: block;
     object-fit: cover;
 
 }
+
+.small_images_grid {
+    display: grid;
+    grid-template-columns: 2, 150px;
+    grid-template-rows: 2, 150px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+.small_images_grid img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 
 #big_image img{
     width: 100%;
@@ -220,18 +237,4 @@ nav{
 }
 
 /* BLENDER PROJECT*/
-
-.blender_images{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-}
-
-.blender_images img{
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-}
 
