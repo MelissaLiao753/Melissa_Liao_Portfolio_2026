@@ -24,17 +24,27 @@
             <h4>Melissa Liao</h4>
         </div>
         
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <div class="dropdown">
-            <li><a href="projects.html">Projects &#x25BE;</a></li>
-            </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <div class="dropdown">
+
+        <li><a href="projects.html">Projects &#x25BE;</a></li>
+            <!--DROPDOWN MENU-->
+            <ul class="dropdown_list">
+                <li class="dropdown_item">
+                    <a href="projects.html#project__1" class="dropdown_link">Project 1</a>
+                    <a href="projects.html#project__2" class="dropdown_link">Project 2</a>
+                    <a href="projects.html#project__3" class="dropdown_link">Project 3</a>
+                </li>
+            </ul>
+        </div>
+
         </ul>
     </nav>
 
 <!--Project 1-->
     <main class="project-wrapper">
-        <section class="project_container">
+        <section class="project_container" id="project__1">
             <div class = "project_details">
                 <h3>Project 1: Website</h3>
                     <p>A website portfolio aimed to capture attention <br>
@@ -61,7 +71,7 @@
 
 
 <!--Project 2-->
-        <section class="project_container">
+        <section class="project_container" id="project__2">
             <div class = project_details>
                 <h3>Project 2: Blender Prototype</h3>
                 <p>A royal fantasy treasure chest prototype that is textured, rigged, 
@@ -85,7 +95,7 @@
 
 
 <!--Project 3-->
-        <section class="project_container">
+        <section class="project_container" id="project__3">
             <div class="project_details">
                 <h3>Project 3: Python Game</h3>
                 <p>A simple adventure fantasy terminal choice game 

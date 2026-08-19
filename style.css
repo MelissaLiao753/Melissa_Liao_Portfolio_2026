@@ -33,6 +33,7 @@ nav{
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-size: 20px;
     
 }
 
@@ -41,6 +42,8 @@ nav{
     justify-content: space-around;
     gap: 2rem;
     list-style: none;
+    font-size: 18px;
+    
 }
 
 .nav-links a{
@@ -48,7 +51,7 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     transition: color 0.3s ease;
-    font-size: 16px;
+    
     
 }
 
@@ -70,7 +73,7 @@ nav{
     position: absolute;
     left: 0;
     top: 125%;
-    min-width: 110px;
+    min-width: 120px;
     list-style: none;
 
 }
@@ -79,7 +82,7 @@ nav{
     padding: 10px 15px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-
+    font-size: 14px;
 }
 
 .dropdown_link {
@@ -133,6 +136,7 @@ nav{
 .contacts h4 {
     font-family: 'DM Serif Display', serif;
     margin-bottom: 1rem;
+    
 }
 
 .contact-ul{
@@ -260,6 +264,10 @@ nav{
     }
         .small-images {
         flex-direction: column;
+    }
+    .dropdown_list {
+        left: initial;
+        right: 0;
     }
 }
 
