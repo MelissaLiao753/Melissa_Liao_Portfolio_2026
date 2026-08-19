@@ -62,21 +62,29 @@ nav{
 
     
 }
-
+/*DROPDOWN MENU*/
 .dropdown {
     position: relative;
 
+}
+
+.dropdown:hover .dropdown_list{
+    display: block;
+    visibility: visible;
+    background-color: #115879;
 }
 
 .dropdown_list {
     background-color: #115879;
     position: absolute;
     left: 0;
-    top: 125%;
+    top: 100%;
     min-width: 120px;
     list-style: none;
+    visibility: hidden;
 
 }
+
 
 .dropdown_item {
     padding: 10px 15px;
@@ -270,8 +278,4 @@ nav{
     
 }
 
-/*DROPDOWN MENU*/
-.dropdown_menu {
-    display: none;
 
-}
