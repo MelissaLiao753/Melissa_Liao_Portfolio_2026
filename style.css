@@ -85,11 +85,6 @@ nav{
     font-size: 14px;
 }
 
-.dropdown_link {
-
-}
-
-
 /*HOMEPAGE INFO*/
 .container {
     display: flex;
@@ -122,6 +117,7 @@ nav{
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 1rem;
+    min-width: 200px;
  
 }
 
@@ -173,6 +169,7 @@ nav{
     padding:1%;
     font-size: 18px;
     line-height: 1.6;
+    min-width: 200px;
 }
 
 .project_details h3 {
@@ -210,6 +207,7 @@ nav{
 
 
 .small_images img{
+    min-width: 100px;
     max-width: 300px;
     height: auto;
     border-radius: 5px;
@@ -269,6 +267,7 @@ nav{
         left: initial;
         right: 0;
     }
+    
 }
 
 /*DROPDOWN MENU*/
